@@ -1,0 +1,106 @@
+body {
+background-image: url("insida.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+#container {
+ height: auto;
+ width: 100%;
+ max-width: 900px;
+ border: solid 2px #000;
+ border-radius: 15px;
+ margin: 0 auto;
+ background-color: #FFF;
+ padding: 10px;
+}
+
+#header{
+ height: 200px;
+ width: 100%;
+ max-width: 880px;
+ background-color: #FFF;
+ background-image: url("bougiebanner.jpg");
+ background-size: cover;
+ background-position: center;
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+#nav {
+ height: 50px;
+ width: 100%;
+ max-width: 900px;
+ border: solid 1px #009;
+ border-radius: 10px;
+ border-bottom: 2px solid #000;
+ border-top: 2px solid #000;
+ margin: 0 auto;
+ margin-top: 10px;
+ text-align: center;
+ background-color: #D4AF37;
+ padding-top: 0px;
+}
+
+#nav a {
+ display: inline-block;
+ padding: 10px 20px;
+ margin: 5px;
+ background-color: #D4AF37;
+ color: white;
+ text-decoration: none;
+ border-radius: 10px;
+}
+
+#content {
+ height: 600px;
+ width: 100%;
+ padding: 10px;
+ border: solid 1px #009;
+ border-radius: 10px;
+ margin: 0 auto;
+}
+
+#footer {
+ height: 45px;
+ width: 100%;
+ max-width: 900px;
+ border: solid 1px #009;
+ border-radius: 10px;
+ margin: 0 auto;
+}
+
+.produktTabell {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.produktTabell th {
+  background-color: #D4AF37;
+  color: white;
+  padding: 12px;
+  border: 1px solid #003366;
+}
+
+.produktTabell td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+.produktTabell tr: nth-child(even){
+  background-color: #228B22;
+}
+
+.produktTabell tr:hover {
+  background color: #f2f2f2;
+}
+
+.produktBild {
+  width: 150px;
+  height: auto;
+}
+
